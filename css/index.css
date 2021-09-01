@@ -439,7 +439,7 @@ canvas.particles-js-canvas-el{
 }
 
 .contact_section .form-control{
-	background:grey;
+	background:white;
 	border:2px var(--pink-color) ;
 	border-radius: 0px;
 	color: White;
