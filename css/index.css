@@ -1,4 +1,4 @@
-:root{
+ :root{
 	--secondary-color: #bbbbbb;
 	--pink-color: #f87652;
 	--background-color: #5c585b;
@@ -143,11 +143,14 @@ canvas.particles-js-canvas-el{
 .hero_section .row button:hover{
 	animation: swing;
 	animation-duration: 0.5s;
+	background:white;
+	color:black;
+	border-color: white;
 }
 
 .hero_section .row img{
 	background: 50% 50% no-repeat;
-	display: block;
+	display: black;
 	width: 250px;
 	height: 250px;
 }
@@ -157,12 +160,15 @@ canvas.particles-js-canvas-el{
 		font-size: 58px;
 	}
 }
-@media(max-width: 1200px) and (min-width: 763px){
+@media(max-width: 993px) and (min-width: 763px){
 	.hero_section .row h1{
 		font-size: 42px;
 	}
 	.hero_section .row h2{
 		font-size: 15px;
+	}
+	.hero_section .row p{
+		font-size: 11px;
 	}
 	.hero_section .row h3{
 		font-size: 15px;
@@ -174,11 +180,11 @@ canvas.particles-js-canvas-el{
 
 @media(max-width: 763px) and (min-width: 500px){
 	.hero_section{
-		margin: 135px 0px;
+		margin: 55px 0px;
 	}
 
 	.hero_section .row h1{
-		font-size: 40px;
+		font-size: 46px;
 		text-align: center;
 	}
 	.hero_section .row h2{
@@ -213,8 +219,6 @@ canvas.particles-js-canvas-el{
 .hero_section img{
 	width: 60%;
 	margin-top: 20px;
-
-		
 	}
 
 <!-- about me -->
